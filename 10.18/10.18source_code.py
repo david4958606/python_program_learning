@@ -91,9 +91,9 @@ else:
     print('BBB')
 """
 # 15
-a, b, c = eval(input('the length of the three sides is: '))
+a, b, c = eval(input('The length of the three sides is: '))
 if a + b > c and a + c > b and abs(b + c) > a and abs(a - b) < c  and abs(a - c) < b and abs(b - c) < a:
-    print("the three numbers are able to be a triangle!")
+    print("The three numbers are able to be a triangle!")
     if a == b ==c:
         print("And it is an Equilateral triangle!")
     elif (a == b != c) or (a == c != b) or (b == c != a):
@@ -101,4 +101,4 @@ if a + b > c and a + c > b and abs(b + c) > a and abs(a - b) < c  and abs(a - c)
     elif (a ** 2 + b ** 2 == c ** 2) or (a ** 2 + c ** 2 == b ** 2) or (c ** 2 + b ** 2 == a ** 2):
         print("And it is a right triangle!")
 else:
-    print("the three numbers are NOT able to be a triangle")
+    print("The three numbers are NOT able to be a triangle")
