@@ -1,0 +1,33 @@
+1. print("v={0:.2f}m^3,s={1:.2f}m^2".format(v,s))
+2. print('0bx={0:b},0ox={0:o},x={0:d},0xx={0:x},'.format(x))
+3. print("maxChar={},minChar={}".format(m,n))
+4. print('typeX={},idX={:x}'.format(type(x),id(x)))
+5. s=sum(x)
+6. s=sqrt(t*(t-a)*(t-b)*(t-c))
+7. n=len(s)
+8. m=abs(c)
+9. print('{:^20}'.format(s))
+10. print('{:^11.11s}\n{:^11.9s}\n{:^11.7s}\n{:^11.5s}\n{:^11.3s}\n{:^11.1s}'.format(s,s,s,s,s,s))
+11. print('{0:#^11.11s}'.format(s))
+12. n=min(a,b,c,d)
+13. print('{0:>7.7s}{0:7.1s}{0:>14.8s}{0:>8.8s}{0:>20.8s}'.format(s))
+14. print('{0:>7.1s}{0:7.7s}{0:>8.8s}{0:>20.8s}{0:>8.8s}'.format(s))
+15. print('numX={},leftX={},rightX={}'.format(n,x[0],x[-1]))
+16. price=[0,0,0,0]
+17. print('numDict={}'.format(len(d)))
+18. print('{}的成绩是{}'.format(name,dict[name]))
+19. s=set(x)
+20. x in s
+21. student=(d1,d2,d3)
+22. print('\n 你选择的是： {}'.format(menu[select]))
+23. print('y={0:d},{0:b}'.format(y))
+24. 
+x=int(input('x='))
+print('x={0:d},{0:b}'.format(x))
+y=x&16
+print('y={0:d},{0:b}'.format(y))
+25
+x=int(input('x='))
+print('x={0:d},{0:b}'.format(x))
+y=x^15
+print('y={0:d},{0:b}'.format(y))
